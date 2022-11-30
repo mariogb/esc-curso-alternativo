@@ -98,22 +98,8 @@ public class Departament extends AbstractDcLon implements IDcLon {
         this.departamentUserLons = departamentUserLons;
     }
 
-    private Set<DepartamentJob> departamenJobs;
 
-    /**
-     *
-     * @return departamenJobs
-     */
-    public Set<DepartamentJob> getDepartamenJobs() {
-        return this.departamenJobs;
-    }
 
-    /**
-     *
-     * @param departamenJobs
-     */
-    public void setDepartamenJobs(Set<DepartamentJob> departamenJobs) {
-        this.departamenJobs = departamenJobs;
-    }
+
 
 }

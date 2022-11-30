@@ -44,23 +44,7 @@ public class Base extends AbstractDcLon implements IDcLon {
         this.baseTimePeriods = baseTimePeriods;
     }
 
-    private Set<WorkSpaceGroup> workSpaceGroups;
-
-    /**
-     *
-     * @return workSpaceGroups
-     */
-    public Set<WorkSpaceGroup> getWorkSpaceGroups() {
-        return this.workSpaceGroups;
-    }
-
-    /**
-     *
-     * @param workSpaceGroups
-     */
-    public void setWorkSpaceGroups(Set<WorkSpaceGroup> workSpaceGroups) {
-        this.workSpaceGroups = workSpaceGroups;
-    }
+   
 
     private Set<BaseUserLon> baseUserLons;
 

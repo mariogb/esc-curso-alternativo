@@ -44,22 +44,5 @@ public class ProgramBaseTimePeriod extends AbstractDcLon implements IDcLon {
         this.program = program;
     }
 
-    private Set<ContractIn> contracts;
-
-    /**
-     *
-     * @return contracts
-     */
-    public Set<ContractIn> getContracts() {
-        return this.contracts;
-    }
-
-    /**
-     *
-     * @param contracts
-     */
-    public void setContracts(Set<ContractIn> contracts) {
-        this.contracts = contracts;
-    }
-
+  
 }

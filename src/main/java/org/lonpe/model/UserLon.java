@@ -170,41 +170,7 @@ public class UserLon extends AbstractDcLon implements IDcLon {
         this.baseUserLons = baseUserLons;
     }
 
-    private Set<ComercialDocumentIn> comercialDocumentIns;
-
-    /**
-     *
-     * @return comercialDocumentIns
-     */
-    public Set<ComercialDocumentIn> getComercialDocumentIns() {
-        return this.comercialDocumentIns;
-    }
-
-    /**
-     *
-     * @param comercialDocumentIns
-     */
-    public void setComercialDocumentIns(Set<ComercialDocumentIn> comercialDocumentIns) {
-        this.comercialDocumentIns = comercialDocumentIns;
-    }
-
-    private Set<ComercialDocumentOut> comercialDocumentOuts;
-
-    /**
-     *
-     * @return comercialDocumentOuts
-     */
-    public Set<ComercialDocumentOut> getComercialDocumentOuts() {
-        return this.comercialDocumentOuts;
-    }
-
-    /**
-     *
-     * @param comercialDocumentOuts
-     */
-    public void setComercialDocumentOuts(Set<ComercialDocumentOut> comercialDocumentOuts) {
-        this.comercialDocumentOuts = comercialDocumentOuts;
-    }
+   
 
     private Set<UserRole> userRoles;
 
@@ -224,22 +190,6 @@ public class UserLon extends AbstractDcLon implements IDcLon {
         this.userRoles = userRoles;
     }
 
-    private Set<UserThirdPerson> userThirdPersons;
-
-    /**
-     *
-     * @return userThirdPersons
-     */
-    public Set<UserThirdPerson> getUserThirdPersons() {
-        return this.userThirdPersons;
-    }
-
-    /**
-     *
-     * @param userThirdPersons
-     */
-    public void setUserThirdPersons(Set<UserThirdPerson> userThirdPersons) {
-        this.userThirdPersons = userThirdPersons;
-    }
+   
 
 }

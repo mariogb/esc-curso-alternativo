@@ -44,40 +44,7 @@ public class DepartamentBaseTimePeriod extends AbstractDcLon implements IDcLon {
         this.departament = departament;
     }
 
-    private Set<ContractOut> contracts;
 
-    /**
-     *
-     * @return contracts
-     */
-    public Set<ContractOut> getContracts() {
-        return this.contracts;
-    }
 
-    /**
-     *
-     * @param contracts
-     */
-    public void setContracts(Set<ContractOut> contracts) {
-        this.contracts = contracts;
-    }
-
-    private Set<DepartamentJobInstance> departamentJobInstances;
-
-    /**
-     *
-     * @return departamentJobInstances
-     */
-    public Set<DepartamentJobInstance> getDepartamentJobInstances() {
-        return this.departamentJobInstances;
-    }
-
-    /**
-     *
-     * @param departamentJobInstances
-     */
-    public void setDepartamentJobInstances(Set<DepartamentJobInstance> departamentJobInstances) {
-        this.departamentJobInstances = departamentJobInstances;
-    }
 
 }
